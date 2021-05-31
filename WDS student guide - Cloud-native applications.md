@@ -54,16 +54,6 @@ By the end of this design session, you will be better able to design solutions t
 
 Analyze your customer's needs.
 
-Timeframe: 15 minutes
-
-Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips.
-
-1. Meet your table participants and trainer.
-
-2. Read all of the directions for steps 1-3 in the student guide.
-
-3. As a table team, review the following customer case study.
-
 ### Customer situation
 
 Fabrikam Medical Conferences provides conference web site services tailored to the medical community. They started out 10 years ago building a few conference sites for a small conference organizer. Since then, word of mouth has spread, and Fabrikam Medical Conferences is now a well-known industry brand. They now handle over 100 conferences per year and growing.
@@ -194,21 +184,11 @@ _CI/CD to Azure Kubernetes Service with Azure DevOps_
 
 **Outcome**
 
-Design a solution and prepare to present the solution to the target customer audience in a 15-minute chalk-talk format.
-
-Timeframe: 60 minutes
-
-**Business needs**
-
-Directions: With all participants at your table, answer the following questions and list the answers on a flip chart:
-
-1. Who should you present this solution to? Who is your target customer audience? Who are the decision makers?
-
-2. What customer business needs do you need to address with your solution?
+Design a solution for the proof of concept (single tenant).
 
 **Design**
 
-Directions: With all participants at your table, respond to the following questions on a flip chart:
+Directions: With all participants at your table, respond to the following questions:
 
 _High-level architecture_
 
@@ -260,41 +240,15 @@ Directions: With all participants at your table:
 
 2. Identify the benefits of your solution.
 
-3. Determine how you will respond to the customer's objections.
+### Customer objections
 
-Prepare a 15-minute chalk-talk style presentation to the customer.
+1. There are many ways to deploy Docker containers on Azure. How do those options compare and what are motivations for each?
 
-## Step 3: Present the solution
+2. Is there an option in Azure that provides container orchestration platform features that are easy to manage and migrate to, that can also handle our scale and management workflow requirements?
 
-**Outcome**
+3. We heard Azure Cosmos DB is compatible with MongoDB. Will this provide a migration that minimizes code changes?
 
-Present a solution to the target customer audience in a 15-minute chalk-talk format.
-
-Timeframe: 30 minutes
-
-**Presentation**
-
-Directions:
-
-1. Pair with another table.
-
-2. One table is the Microsoft team and the other table is the customer.
-
-3. The Microsoft team presents their proposed solution to the customer.
-
-4. The customer makes one of the objections from the list of objections.
-
-5. The Microsoft team responds to the objection.
-
-6. The customer team gives feedback to the Microsoft team.
-
-7. Tables switch roles and repeat Steps 2-6.
-
-## Wrap-up
-
-Timeframe: 15 minutes
-
-Directions: Tables reconvene with the larger group to hear the facilitator/SME share the preferred solution for the case study.
+4. We know Microsoft offers Cognitive Services with pre-built AI models. What models offer the features we are looking to use for enhancing our conference web site?
 
 ## Additional references
 
